@@ -1,0 +1,39 @@
+.container{
+display: flex;
+flex-direction: column;
+width:40%;
+margin:auto;
+}
+.line{
+height:12vh;
+width: 100%;
+border: 2px solid gray;
+display: flex;
+background-color: #f0e3ca;
+}
+.digit{
+height: 100%;
+width: 25%;
+border: 1px solid gray;
+}
+.digit h1{
+text-align: center;
+}
+.bda{
+height: 100%;
+width: 50.5%;
+border: 1px solid gray;
+}
+.bda h1{
+text-align: center;
+}
+.last{
+background-color: red;
+}
+.mota{
+border: 2px solid gray;
+}
+
+#display{
+font-size:30px;
+}
